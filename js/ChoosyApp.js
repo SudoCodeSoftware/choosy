@@ -20,11 +20,11 @@ var ChoosyApp = React.createClass({
 
   const { page } = "first";
   const tabbarStyles = [styles.tabbar];
-  if (Platform.OS === 'android')
+  if (Platform.OS === 'android') {
       tabbarStyles.push(styles.androidTabbar);
     //if (!this.props.isLoggedIn) {
     //  return <LoginScreen />;
-    //}
+    }
     return (
 
       <View style={styles.container}>
@@ -44,7 +44,6 @@ var ChoosyApp = React.createClass({
 
     );
   },
-
 });
 
 
