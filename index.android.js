@@ -78,8 +78,3 @@ class Choosy extends Component {
 };
 
 AppRegistry.registerComponent('Choosy', () => Choosy);
-
-/*
-
-   
-*/
